@@ -1,0 +1,113 @@
+.navbar {
+  height: 100px;
+  position: relative;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid rgb(238, 237, 237);
+  padding: 10px 15px;
+}
+.logo {
+  /* width: 200px; */
+  margin-right: 200px;
+}
+.drapeausn {
+  width: 80%;  
+}
+
+.searchbar {
+  flex: 1;
+  max-width: 450px;
+  height: 50px;
+  display: flex;
+  /* background-color: #fff; */
+  /* border: 1px solid gray; */
+  margin-right: 15px;
+}
+.inputsearch {
+  flex: 1;
+  border: none;
+  padding-left: 15px;
+  border: 2px solid rgba(238, 237, 237, 0.603);
+  border-right: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.inputsearch::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.82rem;
+  color: rgb(238, 237, 237);
+}
+.searchbutton {
+  border: none;
+  width: 40px;
+  background-color: #fff;
+  border: 2px solid rgba(226, 226, 226, 0.603);
+  border-left: none;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+ .searchicon {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+ .socialmedia {
+  width: 240px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 2px solid gainsboro;
+  border-right: 2px solid gainsboro;
+  padding: 0 15px;
+  margin-right: 15px;
+ }
+
+.facebook, .twitter {
+  background-color: rgba(238, 237, 237, 0.603);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fcbicon, .twiticon {
+  width: 20px;
+}
+.socialtitle {
+ color: #3c3c3d;
+}
+
+ .connexion {
+  /* width: 200px; */
+  display: flex;
+  align-items: center;
+
+ }
+ .user {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000091;
+ }
+ 
+ #SVGRepo_bgCarrier {
+  color: #fff;
+ }
+
+ .connecxiontitle {
+  color: #000091;
+  margin-left: 5px;
+ }
