@@ -1,9 +1,9 @@
-
 .bannière {
   background-image: url(/img/images/banner-2-avif.jpg);
   background-size: cover;
   height: 500px;
 }
+
 .banner-title {
   width: 100%;
   padding: 25% 0 25px;
@@ -32,13 +32,13 @@
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 600,
-  'GRAD' 0,
-  'opsz' 24
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 24
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   margin-left: 12px;
 }
 
@@ -60,13 +60,17 @@
   font-size: 0.8125rem;
 }
 
-.demarche,.map,.annuaire {
+.demarche,
+.map,
+.annuaire {
   display: flex;
   align-items: center;
   column-gap: 10px;
 }
 
-.illustration-demarche,.illustration-map,.illustration-annuaire {
+.illustration-demarche,
+.illustration-map,
+.illustration-annuaire {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,16 +80,21 @@
   background-color: #000091;
 }
 
-.icone-demarche,.icone-map,.icone-annuaire {
+.icone-demarche,
+.icone-map,
+.icone-annuaire {
   width: 60%;
-  
+
 }
 
-.content-demarche,.content-map,.content-annuaire {
+.content-demarche,
+.content-map,
+.content-annuaire {
   max-width: 250px;
 }
 
-.demarche::after,.map::after {
+.demarche::after,
+.map::after {
   display: none;
   content: "";
   height: 50px;
@@ -99,20 +108,21 @@
     background-image: url(/img/images/banner-2-avif.jpg);
     /* background-size: cover; */
     height: 500px;
-    
+
   }
+
   .banner-title {
     width: 100%;
     padding: 20% 0 25px;
   }
-  
+
   .banner-title h2 {
     margin: 0;
     color: #fff;
     font-size: 1.125rem;
     text-align: center;
   }
-  
+
   .btn-hero {
     display: flex;
     align-items: center;
@@ -125,20 +135,20 @@
     border-radius: 3px;
     margin: 0 auto;
   }
-  
-  
+
+
   .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 24
+      'FILL' 0,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 24
   }
-  
-  .material-symbols-outlined{
+
+  .material-symbols-outlined {
     margin-left: 12px;
   }
-  
+
   .fonctionnalites {
     display: flex;
     flex-wrap: wrap;
@@ -152,18 +162,22 @@
     margin: 150px auto 0 auto;
     padding: 0 10px;
   }
-  
+
   .fonctionnalites p {
     font-size: 0.8125rem;
   }
-  
-  .demarche,.map,.annuaire {
+
+  .demarche,
+  .map,
+  .annuaire {
     display: flex;
     align-items: center;
     column-gap: 10px;
   }
-  
-  .illustration-demarche,.illustration-map,.illustration-annuaire {
+
+  .illustration-demarche,
+  .illustration-map,
+  .illustration-annuaire {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,17 +186,22 @@
     border-radius: 50%;
     background-color: #000091;
   }
-  
-  .icone-demarche,.icone-map,.icone-annuaire {
+
+  .icone-demarche,
+  .icone-map,
+  .icone-annuaire {
     width: 60%;
-    
+
   }
-  
-  .content-demarche,.content-map,.content-annuaire {
+
+  .content-demarche,
+  .content-map,
+  .content-annuaire {
     max-width: 200px;
   }
-  
-  .demarche::after,.map::after {
+
+  .demarche::after,
+  .map::after {
     display: none;
     content: "";
     height: 50px;
@@ -196,20 +215,21 @@
     background-image: url(/img/images/banner-2-avif.jpg);
     background-size: cover;
     height: 500px;
-    
+
   }
+
   .banner-title {
     width: 100%;
     padding: 20% 0 25px;
   }
-  
+
   .banner-title h2 {
     margin: 0;
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
   }
-  
+
   .btn-hero {
     display: flex;
     align-items: center;
@@ -222,20 +242,20 @@
     border-radius: 3px;
     margin: 0 auto;
   }
-  
-  
+
+
   .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 24
+      'FILL' 0,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 24
   }
-  
-  .material-symbols-outlined{
+
+  .material-symbols-outlined {
     margin-left: 12px;
   }
-  
+
   .fonctionnalites {
     display: flex;
     flex-wrap: wrap;
@@ -249,18 +269,22 @@
     padding: 0 10px;
     /* column-gap: 15px; */
   }
-  
+
   .fonctionnalites p {
     font-size: 0.875rem;
   }
-  
-  .demarche,.map,.annuaire {
+
+  .demarche,
+  .map,
+  .annuaire {
     display: flex;
     align-items: center;
     /* column-gap: 10px; */
   }
-  
-  .illustration-demarche,.illustration-map,.illustration-annuaire {
+
+  .illustration-demarche,
+  .illustration-map,
+  .illustration-annuaire {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,17 +293,22 @@
     border-radius: 50%;
     background-color: #000091;
   }
-  
-  .icone-demarche,.icone-map,.icone-annuaire {
+
+  .icone-demarche,
+  .icone-map,
+  .icone-annuaire {
     width: 60%;
-    
+
   }
-  
-  .content-demarche,.content-map,.content-annuaire {
+
+  .content-demarche,
+  .content-map,
+  .content-annuaire {
     max-width: 150px;
   }
-  
-  .demarche::after,.map::after {
+
+  .demarche::after,
+  .map::after {
     display: block;
     content: "";
     height: 50px;
@@ -288,25 +317,27 @@
     margin-right: 15px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .bannière {
     background-image: url(/img/images/banner-2-avif.jpg);
     background-size: cover;
     height: 500px;
-    
+
   }
+
   .banner-title {
     width: 100%;
     padding: 150px 0 25px;
   }
-  
+
   .banner-title h2 {
     margin: 0;
     color: #fff;
     font-size: 2rem;
     text-align: center;
   }
-  
+
   .btn-hero {
     display: flex;
     align-items: center;
@@ -319,19 +350,19 @@
     border-radius: 3px;
     margin: 0 auto;
   }
-  
+
   .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 24
+      'FILL' 0,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 24
   }
-  
-  .material-symbols-outlined{
+
+  .material-symbols-outlined {
     margin-left: 12px;
   }
-  
+
   .fonctionnalites {
     display: flex;
     flex-wrap: wrap;
@@ -345,18 +376,22 @@
     padding: 0 10px;
     /* column-gap: 15px; */
   }
-  
+
   .fonctionnalites p {
     font-size: 0.875rem;
   }
-  
-  .demarche,.map,.annuaire {
+
+  .demarche,
+  .map,
+  .annuaire {
     display: flex;
     align-items: center;
     /* column-gap: 10px; */
   }
-  
-  .illustration-demarche,.illustration-map,.illustration-annuaire {
+
+  .illustration-demarche,
+  .illustration-map,
+  .illustration-annuaire {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,17 +400,22 @@
     border-radius: 50%;
     background-color: #000091;
   }
-  
-  .icone-demarche,.icone-map,.icone-annuaire {
+
+  .icone-demarche,
+  .icone-map,
+  .icone-annuaire {
     width: 60%;
-    
+
   }
-  
-  .content-demarche,.content-map,.content-annuaire {
+
+  .content-demarche,
+  .content-map,
+  .content-annuaire {
     max-width: 150px;
   }
-  
-  .demarche::after,.map::after {
+
+  .demarche::after,
+  .map::after {
     display: block;
     content: "";
     height: 50px;
@@ -390,20 +430,21 @@
     background-image: url(/img/images/banner-2-avif.jpg);
     background-size: cover;
     height: 500px;
-    
+
   }
+
   .banner-title {
     width: 50%;
     padding: 100px 0 25px 150px;
   }
-  
+
   .banner-title h2 {
     margin: 0;
     color: #fff;
     font-size: 2.5rem;
     text-align: left;
   }
-  
+
   .btn-hero {
     display: flex;
     align-items: center;
@@ -416,19 +457,19 @@
     border-radius: 3px;
     margin: 0 0 0 150px;
   }
-  
+
   .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 24
+      'FILL' 0,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 24
   }
-  
-  .material-symbols-outlined{
+
+  .material-symbols-outlined {
     margin-left: 12px;
   }
-  
+
   .fonctionnalites {
     display: flex;
     flex-wrap: wrap;
@@ -442,18 +483,22 @@
     padding: 15px 10px;
     /* column-gap: 15px; */
   }
-  
+
   .fonctionnalites p {
     font-size: 1rem;
   }
-  
-  .demarche,.map,.annuaire {
+
+  .demarche,
+  .map,
+  .annuaire {
     display: flex;
     align-items: center;
     /* column-gap: 10px; */
   }
-  
-  .illustration-demarche,.illustration-map,.illustration-annuaire {
+
+  .illustration-demarche,
+  .illustration-map,
+  .illustration-annuaire {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -462,17 +507,22 @@
     border-radius: 50%;
     background-color: #000091;
   }
-  
-  .icone-demarche,.icone-map,.icone-annuaire {
+
+  .icone-demarche,
+  .icone-map,
+  .icone-annuaire {
     width: 50%;
-    
+
   }
-  
-  .content-demarche,.content-map,.content-annuaire {
+
+  .content-demarche,
+  .content-map,
+  .content-annuaire {
     max-width: 200px;
   }
-  
-  .demarche::after,.map::after {
+
+  .demarche::after,
+  .map::after {
     display: block;
     content: "";
     height: 50px;
@@ -488,7 +538,9 @@
   width: 65%;
   margin: 150px auto 0 auto;
 }
-.title-vos-demarches h2, .title-vos-demarches p {
+
+.title-vos-demarches h2,
+.title-vos-demarches p {
   text-align: center;
   margin: 0;
 }
@@ -497,9 +549,11 @@
   margin-bottom: 10px;
   font-size: 1.125rem;
 }
+
 .title-vos-demarches p {
   font-size: 0.8125rem;
 }
+
 .demarches-themes {
   min-width: 100%;
   display: flex;
@@ -508,6 +562,7 @@
   border-radius: 5px;
   margin-top: 50px;
 }
+
 .demarches-side-bar {
   background-color: #000091;
   color: #fff;
@@ -515,16 +570,20 @@
   text-align: center;
   padding: 10px 8px;
 }
+
 .demarches-side-bar h3 {
   font-size: 1rem;
   font-weight: 600;
 }
+
 .demarches-side-bar p {
   font-size: 0.8125rem;
 }
-.demarches-domaine{
+
+.demarches-domaine {
   width: 100%;
 }
+
 .demarches-lin-1 {
   display: flex;
   flex-direction: column;
@@ -532,11 +591,13 @@
   justify-content: space-between;
   /* margin: 30px 30px 0 30px; */
 }
+
 .demarches-domaine p {
   font-size: 0.8125rem;
   text-align: center;
   margin: 2px 0;
 }
+
 .demarche-item-1 {
   display: flex;
   flex-direction: column;
@@ -544,9 +605,10 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
+
 .demarche-item-2 {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   border-right: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
@@ -568,13 +630,16 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
+
 .demarche-item-img {
   max-width: 30px;
 }
+
 .demarches-lin-2 {
   display: flex;
   flex-direction: column;
 }
+
 .demarche-item-5 {
   display: flex;
   flex-direction: column;
@@ -582,7 +647,9 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
-.demarche-item-6, .demarche-item-7 {
+
+.demarche-item-6,
+.demarche-item-7 {
   display: flex;
   flex-direction: column;
   padding: 15px 0;
@@ -590,6 +657,7 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
+
 .demarche-item-8 {
   display: flex;
   flex-direction: column;
@@ -597,10 +665,12 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
+
 .demarches-lin-3 {
   display: flex;
   flex-direction: column;
 }
+
 .demarche-item-9 {
   display: flex;
   flex-direction: column;
@@ -608,13 +678,16 @@
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
-.demarche-item-10, .demarche-item-11 {
+
+.demarche-item-10,
+.demarche-item-11 {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #ebebeb;
   padding: 15px 0;
 }
+
 .demarche-item-12 {
   display: flex;
   flex-direction: column;
@@ -627,20 +700,26 @@
     width: 50%;
     margin: 200px auto 0 auto;
   }
-  .title-vos-demarches h2, .title-vos-demarches p {
+
+  .title-vos-demarches h2,
+  .title-vos-demarches p {
     text-align: center;
     margin: 0;
   }
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
     font-size: 1.125rem;
   }
+
   .title-vos-demarches p {
     font-size: 0.8125rem;
   }
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
   }
+
   .demarches-themes {
     min-width: 100%;
     display: flex;
@@ -649,6 +728,7 @@
     border-radius: 5px;
     margin-top: 50px;
   }
+
   .demarches-side-bar {
     flex: 1;
     background-color: #000091;
@@ -656,26 +736,32 @@
     /* width: 100%; */
     padding: 15px 10px;
   }
+
   .demarches-side-bar h3 {
     font-size: 1rem;
     font-weight: 600;
   }
+
   .demarches-side-bar p {
     font-size: 0.8125rem;
   }
-  .demarches-domaine{
+
+  .demarches-domaine {
     width: 100%;
   }
+
   .demarches-lin-1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
   }
+
   .demarches-domaine p {
     font-size: 0.8125rem;
     text-align: center;
     margin: 2px 0;
   }
+
   .demarche-item-1 {
     display: flex;
     flex-direction: column;
@@ -685,6 +771,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-2 {
     display: flex;
     flex-direction: column;
@@ -695,6 +782,7 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-3 {
     display: flex;
     flex-direction: column;
@@ -704,6 +792,7 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-4 {
     display: flex;
     flex-direction: column;
@@ -713,15 +802,18 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-img {
     max-width: 30px;
   }
+
   .demarches-lin-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+
   .demarche-item-5 {
     display: flex;
     flex-direction: column;
@@ -730,6 +822,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-6 {
     display: flex;
     flex-direction: column;
@@ -738,6 +831,7 @@
     flex: 1;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-7 {
     display: flex;
     flex-direction: column;
@@ -746,6 +840,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-8 {
     display: flex;
     flex-direction: column;
@@ -754,11 +849,13 @@
     flex: 1;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarches-lin-3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .demarche-item-9 {
     display: flex;
     flex-direction: column;
@@ -766,14 +863,16 @@
     width: 49%;
     border-right: 1px solid #ebebeb;
   }
+
   .demarche-item-10 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 49%;
-    flex:1;
-    
+    flex: 1;
+
   }
+
   .demarche-item-11 {
     display: flex;
     flex-direction: column;
@@ -782,6 +881,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: none;
   }
+
   .demarche-item-12 {
     display: flex;
     flex-direction: column;
@@ -793,23 +893,30 @@
 
 @media screen and (min-width: 768px) {
   .vos-demarches {
-    max-width: 90%;;
+    max-width: 90%;
+    ;
     margin: 200px auto 0 auto;
   }
-  .title-vos-demarches h2, .title-vos-demarches p {
+
+  .title-vos-demarches h2,
+  .title-vos-demarches p {
     text-align: center;
     margin: 0;
   }
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
     font-size: 1.5rem;
   }
+
   .title-vos-demarches p {
     font-size: 0.85rem;
   }
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
   }
+
   .demarches-themes {
     min-width: 100%;
     display: flex;
@@ -818,6 +925,7 @@
     border-radius: 5px;
     margin-top: 50px;
   }
+
   .demarches-side-bar {
     flex: 1;
     background-color: #000091;
@@ -825,26 +933,32 @@
     /* width: 100%; */
     padding: 15px 10px;
   }
+
   .demarches-side-bar h3 {
     font-size: 1.125rem;
     font-weight: 600;
   }
+
   .demarches-side-bar p {
     font-size: 0.85rem;
   }
-  .demarches-domaine{
+
+  .demarches-domaine {
     width: 100%;
   }
+
   .demarches-lin-1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
   }
+
   .demarches-domaine p {
     font-size: 0.85rem;
     text-align: center;
     margin: 2px 0;
   }
+
   .demarche-item-1 {
     display: flex;
     flex-direction: column;
@@ -854,6 +968,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-2 {
     display: flex;
     flex-direction: column;
@@ -864,6 +979,7 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-3 {
     display: flex;
     flex-direction: column;
@@ -873,6 +989,7 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-4 {
     display: flex;
     flex-direction: column;
@@ -882,15 +999,18 @@
     border-bottom: 1px solid #ebebeb;
     /* padding: 15px; */
   }
+
   .demarche-item-img {
     max-width: 30px;
   }
+
   .demarches-lin-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+
   .demarche-item-5 {
     display: flex;
     flex-direction: column;
@@ -899,6 +1019,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-6 {
     display: flex;
     flex-direction: column;
@@ -907,6 +1028,7 @@
     flex: 1;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-7 {
     display: flex;
     flex-direction: column;
@@ -915,6 +1037,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarche-item-8 {
     display: flex;
     flex-direction: column;
@@ -923,11 +1046,13 @@
     flex: 1;
     border-bottom: 1px solid #ebebeb;
   }
+
   .demarches-lin-3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .demarche-item-9 {
     display: flex;
     flex-direction: column;
@@ -935,14 +1060,16 @@
     width: 49%;
     border-right: 1px solid #ebebeb;
   }
+
   .demarche-item-10 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 49%;
-    flex:1;
-    
+    flex: 1;
+
   }
+
   .demarche-item-11 {
     display: flex;
     flex-direction: column;
@@ -951,6 +1078,7 @@
     border-right: 1px solid #ebebeb;
     border-bottom: none;
   }
+
   .demarche-item-12 {
     display: flex;
     flex-direction: column;
@@ -965,14 +1093,17 @@
     width: 76.8%;
     margin: 100px auto 0 auto;
   }
-  .title-vos-demarches h2, .title-vos-demarches p {
+
+  .title-vos-demarches h2,
+  .title-vos-demarches p {
     text-align: center;
     margin: 0;
   }
-  
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
   }
+
   .demarches-themes {
     display: flex;
     flex-direction: row;
@@ -980,6 +1111,7 @@
     border-radius: 5px;
     margin-top: 50px;
   }
+
   .demarches-side-bar {
     display: flex;
     flex-direction: column;
@@ -990,19 +1122,23 @@
     width: 30%;
     padding: 0 30px;
   }
-  .demarches-domaine{
+
+  .demarches-domaine {
     width: 70%;
   }
+
   .demarches-lin-1 {
     display: flex;
     flex-wrap: wrap;
     margin: 30px 30px 0 30px;
   }
+
   .demarches-domaine p {
     font-size: 0.875rem;
     text-align: center;
     margin: 2px 0;
   }
+
   .demarche-item-1 {
     display: flex;
     flex-direction: column;
@@ -1013,7 +1149,9 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
-  .demarche-item-2, .demarche-item-3 {
+
+  .demarche-item-2,
+  .demarche-item-3 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -1023,6 +1161,7 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-4 {
     display: flex;
     flex-direction: column;
@@ -1032,13 +1171,16 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-img {
     max-width: 30px;
   }
+
   .demarches-lin-2 {
     display: flex;
     margin: 0 30px 0 30px;
   }
+
   .demarche-item-5 {
     display: flex;
     flex-direction: column;
@@ -1049,16 +1191,19 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
-  .demarche-item-6, .demarche-item-7 {
+
+  .demarche-item-6,
+  .demarche-item-7 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    flex:1;
+    flex: 1;
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-8 {
     display: flex;
     flex-direction: column;
@@ -1068,10 +1213,12 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarches-lin-3 {
     display: flex;
     margin: 0 30px 30px 30px;
   }
+
   .demarche-item-9 {
     display: flex;
     flex-direction: column;
@@ -1082,25 +1229,28 @@
     border-bottom: none;
     padding: 15px;
   }
+
   .demarche-item-10 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    flex:1;
+    flex: 1;
     border-right: 1px solid #ebebeb;
     border-bottom: none;
     padding: 15px;
   }
+
   .demarche-item-11 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    flex:1;
+    flex: 1;
     border-right: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-12 {
     display: flex;
     flex-direction: column;
@@ -1117,14 +1267,17 @@
     width: 76.8%;
     margin: 150px auto 0 auto;
   }
-  .title-vos-demarches h2, .title-vos-demarches p {
+
+  .title-vos-demarches h2,
+  .title-vos-demarches p {
     text-align: center;
     margin: 0;
   }
-  
+
   .title-vos-demarches h2 {
     margin-bottom: 10px;
   }
+
   .demarches-themes {
     display: flex;
     flex-direction: row;
@@ -1132,25 +1285,30 @@
     border-radius: 5px;
     margin-top: 50px;
   }
+
   .demarches-side-bar {
     background-color: #000091;
     color: #fff;
     width: 30%;
     padding: 40px 30px;
   }
-  .demarches-domaine{
+
+  .demarches-domaine {
     width: 70%;
   }
+
   .demarches-lin-1 {
     display: flex;
     flex-wrap: wrap;
     margin: 30px 30px 0 30px;
   }
+
   .demarches-domaine p {
     font-size: 0.875rem;
     text-align: center;
     margin: 2px 0;
   }
+
   .demarche-item-1 {
     display: flex;
     flex-direction: column;
@@ -1161,7 +1319,9 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
-  .demarche-item-2, .demarche-item-3 {
+
+  .demarche-item-2,
+  .demarche-item-3 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -1171,6 +1331,7 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-4 {
     display: flex;
     flex-direction: column;
@@ -1180,13 +1341,16 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-img {
     max-width: 30px;
   }
+
   .demarches-lin-2 {
     display: flex;
     margin: 0 30px 0 30px;
   }
+
   .demarche-item-5 {
     display: flex;
     flex-direction: column;
@@ -1197,16 +1361,19 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
-  .demarche-item-6, .demarche-item-7 {
+
+  .demarche-item-6,
+  .demarche-item-7 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    flex:1;
+    flex: 1;
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-8 {
     display: flex;
     flex-direction: column;
@@ -1216,10 +1383,12 @@
     border-bottom: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarches-lin-3 {
     display: flex;
     margin: 0 30px 30px 30px;
   }
+
   .demarche-item-9 {
     display: flex;
     flex-direction: column;
@@ -1229,15 +1398,18 @@
     border-right: 1px solid #ebebeb;
     padding: 15px;
   }
-  .demarche-item-10, .demarche-item-11 {
+
+  .demarche-item-10,
+  .demarche-item-11 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    flex:1;
+    flex: 1;
     border-right: 1px solid #ebebeb;
     padding: 15px;
   }
+
   .demarche-item-12 {
     display: flex;
     flex-direction: column;
@@ -1248,3 +1420,567 @@
   }
 }
 
+/* Section: vos démarches professionnelles */
+
+.demarches-professionnels {
+  display: block;
+  width: 65%;
+  margin: 40px auto 0 auto;
+
+}
+
+.side-bar-demarches-professionnels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #58a18f;
+  color: #fff;
+  width: 100%;
+  border: solid 1px #58a18f;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 0;
+  
+}
+.toutes-les-demarches {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  background-color: #fff;
+  color: #58a18f;
+  font-size: 0.8125rem;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.toutes-les-demarches-content {
+  max-width: 150px;
+  margin-left: 15px;
+}
+.toutes-les-demarches-content p {
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.toutes-les-demarches-title {
+  font-size: 1rem;
+  text-align: center;
+}
+.toutes-les-demarches-title::after {
+  display: block;
+  margin: 1rem auto 0;
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  
+}
+.side-bar-demarches-professionnels p {
+  font-size: 0.8125rem;
+  margin: 0;
+}
+.demarches-professionnels-domaines {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* gap: 10px; */
+  border: solid 1px #58a18f;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px 0;
+}
+
+.item1-demarches-professionnels,
+.item2-demarches-professionnels,
+.item3-demarches-professionnels,
+.item4-demarches-professionnels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item1-demarches-professionnels,
+.item2-demarches-professionnels
+{
+  border-right: solid 1px #eeeded;
+  border-bottom: solid 1px #eeeded;
+}
+.item3-demarches-professionnels {
+  border-bottom: solid 1px #eeeded;
+}
+.item4-demarches-professionnels {
+  border-right: solid 1px #eeeded;
+}
+.demarches-professionnels-domaines img {
+  max-width: 30px;
+}
+.demarches-professionnels-domaines p {
+  font-size: 0.8125rem;
+}
+
+@media screen and (min-width: 576px) {
+  .demarches-professionnels {
+    display: block;
+    width: 65%;
+    margin: 40px auto 0 auto;
+  
+  }
+  
+  .side-bar-demarches-professionnels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #58a18f;
+    color: #fff;
+    width: 100%;
+    border: solid 1px #58a18f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0;
+    
+  }
+  .toutes-les-demarches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    background-color: #fff;
+    color: #58a18f;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+  .toutes-les-demarches-content {
+    max-width: 150px;
+    margin-left: 15px;
+  }
+  .toutes-les-demarches-content p {
+    margin: 0;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .toutes-les-demarches-title {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  .toutes-les-demarches-title::after {
+    display: block;
+    margin: 1rem auto 0;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    
+  }
+  .side-bar-demarches-professionnels p {
+    font-size: 0.85rem;
+    margin: 0;
+  }
+  .demarches-professionnels-domaines {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 10px; */
+    border: solid 1px #58a18f;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 0;
+  }
+  
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels,
+  .item3-demarches-professionnels,
+  .item4-demarches-professionnels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels
+  {
+    border-right: solid 1px #eeeded;
+    border-bottom: solid 1px #eeeded;
+  }
+  .item3-demarches-professionnels {
+    border-bottom: solid 1px #eeeded;
+  }
+  .item4-demarches-professionnels {
+    border-right: solid 1px #eeeded;
+  }
+  .demarches-professionnels-domaines img {
+    max-width: 30px;
+  }
+  .demarches-professionnels-domaines p {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .demarches-professionnels {
+    display: block;
+    width: 90%;
+    margin: 40px auto 0 auto;
+  
+  }
+  
+  .side-bar-demarches-professionnels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #58a18f;
+    color: #fff;
+    width: 100%;
+    border: solid 1px #58a18f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0;
+    
+  }
+  .toutes-les-demarches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    background-color: #fff;
+    color: #58a18f;
+    font-size: 0.8125rem;
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+  .toutes-les-demarches-content {
+    max-width: 150px;
+    margin-left: 15px;
+  }
+  .toutes-les-demarches-content p {
+    margin: 0;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .toutes-les-demarches-title {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  .toutes-les-demarches-title::after {
+    display: block;
+    margin: 1rem auto 0;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    
+  }
+  .side-bar-demarches-professionnels p {
+    font-size: 0.8125rem;
+    margin: 0;
+  }
+  .demarches-professionnels-domaines {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 10px; */
+    border: solid 1px #58a18f;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 0px;
+  }
+  
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels,
+  .item3-demarches-professionnels,
+  .item4-demarches-professionnels {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels
+  {
+    border-right: none;
+    border-bottom: solid 1px #eeeded;
+    
+  }
+  .item1-demarches-professionnels {
+    margin-left: 5px;
+  }
+  .item2-demarches-professionnels {
+    border-left: solid 1px #eeeded;
+    margin-right: 5px;
+  }
+  .item3-demarches-professionnels {
+    border-right: solid 1px #eeeded;
+    border-bottom: none;
+    margin-left: 5px;
+  }
+  .item4-demarches-professionnels {
+    border-right: none;
+    margin-right: 5px;
+  }
+  .demarches-professionnels-domaines img {
+    max-width: 30px;
+  }
+  .demarches-professionnels-domaines p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .demarches-professionnels {
+    display: flex;
+    width: 76.8%;
+    margin: 40px auto 0 auto;
+  
+  }
+  
+  .side-bar-demarches-professionnels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #58a18f;
+    color: #fff;
+    width: 35%;
+    border: solid 1px #58a18f;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 0;
+    
+  }
+  .toutes-les-demarches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    background-color: #fff;
+    color: #58a18f;
+    font-size: 0.875rem;
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+  .toutes-les-demarches-content {
+    max-width: 150px;
+    margin-left: 15px;
+  }
+  .toutes-les-demarches-content p {
+    margin: 0;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .toutes-les-demarches-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .toutes-les-demarches-title::after {
+    display: block;
+    margin: 1rem auto 0;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    
+  }
+  .side-bar-demarches-professionnels p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  .demarches-professionnels-domaines {
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    border: solid 1px #58a18f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    padding: 10px 15px;
+  }
+  
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels,
+  .item3-demarches-professionnels,
+  .item4-demarches-professionnels {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels
+  {
+    border-right: none;
+    border-bottom: solid 1px #eeeded;
+    
+  }
+  .item1-demarches-professionnels {
+    margin-left: 0;
+  }
+  .item2-demarches-professionnels {
+    border-left: solid 1px #eeeded;
+    margin-right: 0;
+    border-right: solid 1px #eeeded;
+  }
+  .item3-demarches-professionnels {
+    border-right: none;
+    border-bottom: solid 1px #eeeded;
+    margin-left: 0;
+  }
+  .item4-demarches-professionnels {
+    border-right: none;
+    margin-right: 0;
+    border-right: solid 1px #eeeded;
+  }
+  .demarches-professionnels-domaines img {
+    max-width: 30px;
+  }
+  .demarches-professionnels-domaines p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .demarches-professionnels {
+    display: flex;
+    width: 76.8%;
+    margin: 40px auto 0 auto;
+  
+  }
+  
+  .side-bar-demarches-professionnels {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    background-color: #58a18f;
+    color: #fff;
+    width: 30%;
+    border: solid 1px #58a18f;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 0 0 30px;
+    
+  }
+  .toutes-les-demarches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    background-color: #fff;
+    color: #58a18f;
+    font-size: 0.8125rem;
+    margin: 20px 0;
+    padding-right: 10px;
+  }
+  .toutes-les-demarches-content {
+    max-width: 150px;
+    margin-left: 15px;
+  }
+  .toutes-les-demarches-content p {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .toutes-les-demarches-title {
+    font-size: 1.125rem;
+    text-align: left;
+  }
+  .toutes-les-demarches-title::after {
+    display: block;
+    margin: 1rem 0;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    
+  }
+  .side-bar-demarches-professionnels p {
+    font-size: 0.875rem;
+    margin: 0;
+    text-align: left;
+  }
+  .demarches-professionnels-domaines {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid 1px #58a18f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    padding: 10px 15px;
+  }
+  
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels,
+  .item3-demarches-professionnels,
+  .item4-demarches-professionnels {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1-demarches-professionnels,
+  .item2-demarches-professionnels
+  {
+    border-right: none;
+    border-bottom: solid 1px #eeeded;
+    
+  }
+  .item1-demarches-professionnels {
+    margin-left: 0;
+  }
+  .item2-demarches-professionnels {
+    border-left: solid 1px #eeeded;
+    margin-right: 0;
+    border-right: solid 1px #eeeded;
+  }
+  .item3-demarches-professionnels {
+    border-right: none;
+    border-bottom: solid 1px #eeeded;
+    margin-left: 0;
+  }
+  .item4-demarches-professionnels {
+    border-right: none;
+    margin-right: 0;
+    border-right: solid 1px #eeeded;
+  }
+  .demarches-professionnels-domaines img {
+    max-width: 30px;
+  }
+  .demarches-professionnels-domaines p {
+    font-size: 0.875rem;
+  }
+}
